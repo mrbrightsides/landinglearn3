@@ -257,20 +257,19 @@ export default function DocsPage() {
           {/* Tautan Integrasi */}
           <motion.div variants={makeContainer()} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.2 }}>
             <motion.div variants={fadeUp(0.1)} className="rounded-2xl border border-white/10 bg-white/5 p-6">
-              <h2 className="text-xl font-semibold">Tautan Integrasi</h2>
-              <div className="mt-2 grid gap-3 sm:grid-cols-2">
-                <a className="underline underline-offset-4 text-white/80" href="/play/blocktutor">BlockTutor → Play</a>
-                <a className="underline underline-offset-4 text-white/80" href="/play/blockchat">BlockChat → Play</a>
-                <a className="underline underline-offset-4 text-white/80" href="/play/blockbot">BlockBot → Play</a>
-                <a className="underline underline-offset-4 text-white/80" href="/play/dao-sim">DAO Voter Simulator → Play</a>
-                <a className="underline underline-offset-4 text-white/80" href="/play/lp-sim">LP Simulator → Play</a>
-                <a className="underline underline-offset-4 text-white/80" href="/play/quiz">Quiz → Play</a>
-                <a className="underline underline-offset-4 text-white/80" href="/play/research">Research → Play</a>
-                <a className="underline underline-offset-4 text-white/80" href="/play/gateway">AI Gateway → Play</a>
-              </div>
-              <p className="mt-3 text-sm text-white/60">
-                * Ganti href di atas dengan URL embed sebenarnya (Streamlit/iframe/host internal).
-              </p>
+              <h2 className="text-xl font-semibold">Alur Modul Pembelajaran yang Direkomendasikan</h2>
+              <ol className="mt-2 list-decimal space-y-1 pl-5 text-white/70">
+                <li><strong>AI Playground</strong> menjadi gerbang masuk, di mana peserta dapat berinteraksi dengan chatbot edukatif untuk memahami konsep dasar blockchain, smart contract, dan Web3. Modul ini menekankan pembelajaran berbasis percakapan dan eksplorasi ide.</li>
+                <li><strong>Blockchain 101</strong> memberikan fondasi teoretis yang terstruktur, mencakup konsep ledger terdistribusi, mekanisme konsensus, hingga dasar tokenisasi.</li>
+                <li><strong>Token Lab</strong> membawa peserta ke tahap praktik dengan membangun dan menguji token sederhana di testnet. Modul ini menekankan pemahaman ERC-20/721 dan keterampilan teknis deploy kontrak.</li>
+                <li><strong>DAO Sandbox</strong> memperkenalkan peserta pada tata kelola terdesentralisasi. Di sini, peserta belajar tentang voting, proposal, dan mekanisme partisipasi komunitas.</li>
+                <li><strong>DeFi Workshop</strong> membuka wawasan tentang layanan keuangan terdesentralisasi, mulai dari liquidity pool hingga yield farming, dalam format simulasi yang terkontrol.</li>
+                <li><strong>Smart Contract Studio</strong> menjadi ruang praktik lanjutan, di mana peserta dapat menulis, mengedit, dan menguji smart contract mereka sendiri dengan dukungan dokumentasi dan template.</li>
+                <li><strong>Gas & Performance</strong> mengajarkan peserta untuk memahami efisiensi transaksi, biaya gas, serta isu skalabilitas. Modul ini menghubungkan aspek teknis dengan evaluasi performa sistem blockchain.</li>
+                <li><strong>Audit Security</strong> fokus pada keamanan kontrak pintar. Peserta diperkenalkan pada alat deteksi kelemahan (misalnya Mythril/Slither) dan praktik terbaik untuk mitigasi risiko.</li>
+                <li><strong>Web3 Lab</strong> menyediakan ruang eksperimen integrasi, seperti koneksi wallet, pemanggilan API, dan pembuatan antarmuka dApp sederhana.</li>
+                <li><strong>Certification</strong> menjadi puncak perjalanan. Peserta yang berhasil menyelesaikan modul-modul kunci memperoleh sertifikasi berbasis Soulbound Token (SBT) melalui portal RANTAI (rantai.elpeef.com). Sertifikasi ini bersifat on-chain, permanen, dan dapat diverifikasi sebagai bukti pencapaian akademik maupun profesional.</li>
+              </ol>
             </motion.div>
           </motion.div>
 
@@ -292,3 +291,4 @@ export default function DocsPage() {
     </main>
   );
 }
+
