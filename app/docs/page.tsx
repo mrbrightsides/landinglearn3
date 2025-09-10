@@ -47,10 +47,10 @@ export default function DocsPage() {
           </span>
 
           <Link
-            href="/"
-            className="rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-sm text-white/90 transition hover:bg-white/10"
+            href="https://rantai.elpeef.com/"
+            className="rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-sm text-white/90 transition hover:bg-white/10 relative gradient-border"
           >
-            Home
+            RANTAI
           </Link>
         </div>
       </header>
@@ -242,7 +242,7 @@ export default function DocsPage() {
           {/* Alur Belajar */}
           <motion.div variants={makeContainer()} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.2 }}>
             <motion.div variants={fadeUp(0.1)} className="rounded-2xl border border-white/10 bg-white/5 p-6">
-              <h2 className="text-xl font-semibold">Alur Belajar yang Direkomendasikan</h2>
+              <h2 className="text-xl font-semibold">Alur Tutor dengan AI yang Direkomendasikan</h2>
               <ol className="mt-2 list-decimal space-y-1 pl-5 text-white/70">
                 <li>Mulai di <strong>BlockTutor</strong> (roadmap & modul).</li>
                 <li>Perdalam di <strong>BlockBot</strong> / <strong>BlockChat</strong> (tanya-jawab & diskusi).</li>
@@ -291,4 +291,5 @@ export default function DocsPage() {
     </main>
   );
 }
+
 
