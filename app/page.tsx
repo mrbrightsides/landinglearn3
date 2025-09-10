@@ -197,7 +197,7 @@ export default function Learn3Landing() {
         <motion.p variants={item} className="max-w-3xl text-white/70">
           Belajar Web3 gak harus kaku. Di Learn3 kamu bisa ngobrol sama bot, main quiz,
           latihan simulasi DeFi & DAO, sampai bikin smart contract sendiri. Santai
-          ngobrolnya, serius hasilnya — reward-nya on-chain 🚀
+          ngobrolnya, serius hasilnya, on-chain rewardnya 🚀
         </motion.p>
 
         {/* pills/channel */}
@@ -319,4 +319,5 @@ export default function Learn3Landing() {
     </main>
   );
 }
+
 
