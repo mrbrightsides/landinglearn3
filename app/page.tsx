@@ -189,7 +189,7 @@ export default function Learn3Landing() {
 
         {/* heading */}
         <motion.h1 variants={item} className="text-4xl font-extrabold tracking-tight md:text-6xl">
-          Chat. Code. <span className="bg-gradient-to-r from-fuchsia-400 via-indigo-400 to-sky-400 bg-clip-text text-transparent">Chained.</span> Certified.
+          Chat. Code. Chained. <span className="bg-gradient-to-r from-fuchsia-400 via-indigo-400 to-sky-400 bg-clip-text text-transparent">Certified.</span>
           <br />Your Web3 Journey Starts Here
         </motion.h1>
 
@@ -319,3 +319,4 @@ export default function Learn3Landing() {
     </main>
   );
 }
+
